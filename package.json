@@ -1,0 +1,44 @@
+{
+  "name": "okx-dex-auto-swap-bot",
+  "version": "1.0.0",
+  "description": "Automated trading bot for OKX DEX on Solana - SOL to PUMP token swaps",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "node test.js",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "solana",
+    "okx",
+    "dex",
+    "trading-bot",
+    "crypto",
+    "defi",
+    "automated-trading",
+    "pump-token"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/okx-dex-auto-swap-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/okx-dex-auto-swap-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/okx-dex-auto-swap-bot#readme"
+}
